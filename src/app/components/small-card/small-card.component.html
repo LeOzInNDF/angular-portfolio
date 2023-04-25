@@ -3,15 +3,15 @@
 
     <div class="small-card__photo">
       <img
-      src="https://poltronanerd.com.br/wp-content/uploads/2021/01/marvel-2021.jpg"
+      src="{{ photoCover}}"
       alt=""
       srcset=""
       >
     </div>
 
-    <a href=""></a>
+
     <div class="small-card__title">
-  <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+  <h1><a [routerLink]="['content' , Id]">{{cardTitle}}</a></h1>
     </div>
 
   </div>
