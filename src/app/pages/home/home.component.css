@@ -14,10 +14,18 @@
 
 @media (max-width:450px) {
  .articles__main {
- display: block;
+ display: flex;
  justify-content: center;
  align-items: center;
 
 
  }
+}
+@media (max-width:450px) {
+.articles__others {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10%;
+}
 }
