@@ -41,12 +41,13 @@
 
 
 
-@media (max-width:850px) {
+@media (max-width:851px) {
   .container__big-card {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 12px;
   }
 }
 
@@ -63,7 +64,7 @@
 
 
 
- @media (max-width:850px) {
+ @media (max-width:851px) {
   .big-card__photo img {
     width: 170px;
     height: 150px;

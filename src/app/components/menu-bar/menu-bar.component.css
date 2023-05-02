@@ -11,9 +11,13 @@ list-style: none;
 }
 
 
-@media (max-width:850px) {
+@media (max-width:851px) {
   .container__menu-bar  {
-    font-size: 25px;
+    width: 100%;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
