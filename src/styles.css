@@ -48,3 +48,44 @@ a{
   color:var(--green);
   box-shadow: var(--box-shadow-inset);
 }
+
+
+/* media queries  */
+
+@media (max-width:991px){
+
+  html{
+      font-size: 55%;
+  }
+
+  body{
+      padding-left: 0;
+  }
+
+  .header{
+      left:-110%;
+  }
+
+  .header.active{
+      left:0%;
+      transition: .4s linear;
+  }
+
+  #menu-btn{
+      display: initial;
+  }
+
+}
+
+@media (max-width:450px){
+
+  html{
+      font-size: 50%;
+  }
+
+  .header{
+      width:100%;
+      border-right: 0;
+  }
+
+}
