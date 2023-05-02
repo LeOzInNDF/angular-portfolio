@@ -7,3 +7,9 @@
   color: red;
 
 }
+
+@media (max-width:450px) {
+  .container__footer {
+    font-size: 60%;
+  }
+}

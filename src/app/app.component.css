@@ -4,4 +4,20 @@ header {
   justify-content: center;
 }
 
+@media (max-width:850px) {
+  header   {
+    font-size: 80px;
+  }
+}
+
+
+@media (max-width:450px) {
+  header {
+    width: 100%;
+    font-size: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 
