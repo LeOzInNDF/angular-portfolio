@@ -1,6 +1,6 @@
 .container__footer {
   display: flex;
-  padding-bottom: -10px;
+  padding-bottom: 10px;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -10,6 +10,6 @@
 
 @media (max-width:450px) {
   .container__footer {
-    font-size: 60%;
+    font-size: 100%;
   }
 }

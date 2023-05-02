@@ -37,7 +37,7 @@
 
 @media (max-width:450px) {
   .container__small-card {
-    font-size: 80%;
+    font-size: 50px;
     width: 90%;
     display: flex;
     justify-content: center;
@@ -64,6 +64,6 @@
 @media (max-width:850px) {
 .small-card__title {
   display: block;
-  font-size: 8px;
+  font-size: 12px;
 }
 }
