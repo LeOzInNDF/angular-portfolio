@@ -62,6 +62,13 @@
 }
 }
 
+@media (max-width:450px) {
+  .small-card__photo img {
+    width: 100%;
+    margin-right: auto;
+}
+}
+
 @media (max-width:850px) {
 .small-card__title {
   display: block;
